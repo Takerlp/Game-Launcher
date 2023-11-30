@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 35px 1fr 100px;
+    min-height: 100vh;
+    grid-template-areas: 
+    "header header header"
+    "sidebar content content" 
+    "footer footer footer";
+}
+
+.container header {
+    background-color: #09f;
+    grid-area: header;
+}
+
+.container aside {
+    background-color: yellow;
+    grid-area: sidebar;
+}
+
+.container main {
+    background-color: red;
+    grid-area: content;
+}
+
+.container footer {
+    background-color: grey;
+    grid-area: footer;
+}
