@@ -14,8 +14,10 @@ body {
     min-height: 100vh;
     grid-template-areas: 
     "header header header"
-    "sidebar content content" 
+    "main main main" 
     "footer footer footer";
+    
+    
 }
 
 .container header {
@@ -23,17 +25,38 @@ body {
     grid-area: header;
 }
 
-.container aside {
+/*.container aside {
     background-color: yellow;
-    grid-area: sidebar;
+    grid-area: aside;
 }
-
-.container main {
+*/
+ main {
     background-color: red;
-    grid-area: content;
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+     
+    
 }
 
 .container footer {
     background-color: grey;
     grid-area: footer;
+}
+
+.tapa {
+    max-width: 325px;
+     
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1170px;
+
 }
