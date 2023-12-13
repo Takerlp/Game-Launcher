@@ -80,8 +80,12 @@ background: linear-gradient(90deg, rgba(231,44,154,1) 0%, rgba(201,50,161,1) 5%,
 }
 
 .container footer {
+    display: flex;
     background-color: rgb(83, 172, 32);
     grid-area: footer;
+    justify-content: center;
+    align-items: center;
+    color: #f2f2f2;
 }
 
 .tapa {
@@ -97,10 +101,11 @@ background: linear-gradient(90deg, rgba(231,44,154,1) 0%, rgba(201,50,161,1) 5%,
 
 .tapa:hover {
     transform: scale(1.1);
-    transition-duration: 0.4s; /*crece*/
+    transition-duration: 0.2s; /*crece*/
     cursor: pointer;
    /* box-shadow: 0 4px 8px 2px rgba(222,7,181,1), 0 6px 20px 0 rgba(76,9,121,1), 0 -3px 8px 0 rgba(255, 230, 0, 0.753); */
-   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        
 }
 
 .box {
