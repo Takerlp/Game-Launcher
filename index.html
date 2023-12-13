@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <!--theme-color le da color de tema al navegador en la barra superior-->
     <meta name="theme-color" content="#c70039">
-    <link rel="icon" type="image/jpg" href="/images/imagendelfavicon.jpg">
+    <link rel="icon" type="image/jpg" href="./img/fav.ico">
     <meta name="description" content="Aqui va la descripcion que aparecera en google">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +15,10 @@
 </head>
 <body>
     <section class="container">
-        <header class="bounce-top titulostyle">
+        <header class="bounce-top">
             <div class="letrastitulo">
-             <h1 > <span id="dagon">DAGON</span> <br><span id="gamelaun">Game Launcher</span></h1>
+             <h1 id="dagon">DAGON</h1>
+             <p id="gamelaun">Game Launcher</p>
             </div>
             
             </header>
@@ -25,45 +26,50 @@
 
         <main>
             <div class="box">
-                <img class="tapa" src="./img/hellboy.jpg" alt="Hellboy web of wyrd">
+                <a href="https://store.steampowered.com/app/2160480/Hellboy_Web_of_Wyrd/" target="_blank" rel="noopener noreferrer"><img class="tapa" src="https://cdn.cloudflare.steamstatic.com/steam/apps/2160480/header.jpg?t=1698343716" alt="Hellboy web of wyrd" id="imagenConSonido" onmouseover="playSound()" onclick="playClickSound()"></a>
        
-                <img class="tapa" src="./img/streamerLifeSimulator.jpg" alt="Streamer life simulator">
+                <a href="https://store.steampowered.com/app/1261040/Streamer_Life_Simulator/" target="_blank" rel="noopener noreferrer"><img class="tapa" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1261040/header.jpg?t=1688202035" alt="Streamer life simulator" id="imagenConSonido" onmouseover="playSound()" onclick="playClickSound()"></a>
            
-                <img class="tapa" src="./img/readyOrNot.jpg" alt="Ready or not">
+                <a href="https://store.steampowered.com/app/1144200/Ready_or_Not/" target="_blank" rel="noopener noreferrer"><img class="tapa" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1144200/header.jpg?t=1702051758" alt="Ready or not" id="imagenConSonido" onmouseover="playSound()" onclick="playClickSound()"></a>
 
-                <img class="tapa" src="./img/nierAutomata.jpg" alt="Nier Automata">
+                <a href="https://store.steampowered.com/app/524220/NieRAutomata/" target="_blank" rel="noopener noreferrer"><img class="tapa" src="https://cdn.cloudflare.steamstatic.com/steam/apps/524220/header.jpg?t=1696405478" alt="Nier Automata" id="imagenConSonido" onmouseover="playSound()" onclick="playClickSound()"></a>
 
-                <img class="tapa" src="./img/beamNGdrive.jpg" alt="BeamNG Drive">
+                <a href="https://store.steampowered.com/app/284160/BeamNGdrive/" target="_blank" rel="noopener noreferrer"><img class="tapa" src="https://cdn.cloudflare.steamstatic.com/steam/apps/284160/header.jpg?t=1702416479" alt="BeamNG Drive" id="imagenConSonido" onmouseover="playSound()" onclick="playClickSound()"></a>
 
-                <img class="tapa" src="./img/dontScream.jpg" alt="Dont Scream">
+                <a href="https://store.steampowered.com/app/2497900/DONT_SCREAM/" target="_blank" rel="noopener noreferrer"><img class="tapa" src="https://cdn.cloudflare.steamstatic.com/steam/apps/2497900/header.jpg?t=1698540453" alt="Dont Scream" id="imagenConSonido" onmouseover="playSound()" onclick="playClickSound()"></a>
 
-                <img class="tapa" src="./img/hellboy.jpg" alt="Hellboy web of wyrd">
+                <a href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" target="_blank" rel="noopener noreferrer"><img class="tapa" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg?t=1695140956" alt="Red Dead Redemption 2" id="imagenConSonido" onmouseover="playSound()" onclick="playClickSound()"></a>
        
-                <img class="tapa" src="./img/streamerLifeSimulator.jpg" alt="Streamer life simulator">
+                <a href="https://store.steampowered.com/app/730/CounterStrike_2/" target="_blank" rel="noopener noreferrer"><img class="tapa" src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg?t=1698860631" alt="Counter-Strike 2" id="imagenConSonido" onmouseover="playSound()" onclick="playClickSound()"></a>
            
-                <img class="tapa" src="./img/readyOrNot.jpg" alt="Ready or not">
+                <a href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/" target="_blank" rel="noopener noreferrer"><img class="tapa" src="https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg?t=1695060909" alt="Grand Theft Auto V" id="imagenConSonido" onmouseover="playSound()" onclick="playClickSound()"></a>
 
-                <img class="tapa" src="./img/nierAutomata.jpg" alt="Nier Automata">
+                <a href="https://store.steampowered.com/app/1086940/Baldurs_Gate_3/" target="_blank" rel="noopener noreferrer"><img class="tapa" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg?t=1702007647" alt="Baldurs Gate 3" id="imagenConSonido" onmouseover="playSound()" onclick="playClickSound()"></a>
 
-                <img class="tapa" src="./img/beamNGdrive.jpg" alt="BeamNG Drive">
+                <a href="https://store.steampowered.com/app/1172470/Apex_Legends/" target="_blank" rel="noopener noreferrer"><img class="tapa" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/header.jpg?t=1702478728" alt="Apex Legends" id="imagenConSonido" onmouseover="playSound()" onclick="playClickSound()"></a>
 
-                <img class="tapa" src="./img/dontScream.jpg" alt="Dont Scream">
+                <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" target="_blank" rel="noopener noreferrer"><img class="tapa" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header_alt_assets_5_latam.jpg?t=1702306332" alt="Cyberpunk 2077" id="imagenConSonido" onmouseover="playSound()" onclick="playClickSound()"></a>
 
-                <img class="tapa" src="./img/hellboy.jpg" alt="Hellboy web of wyrd">
+                <a href="https://store.steampowered.com/app/2344520/Diablo_IV/" target="_blank" rel="noopener noreferrer"><img class="tapa" src="https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/header.jpg?t=1701194709" alt="Diablo_IV" id="imagenConSonido" onmouseover="playSound()" onclick="playClickSound()"></a> 
        
-                <img class="tapa" src="./img/streamerLifeSimulator.jpg" alt="Streamer life simulator">
+                <a href="https://store.steampowered.com/app/440/Team_Fortress_2/" target="_blank" rel="noopener noreferrer"><img class="tapa" src="https://cdn.cloudflare.steamstatic.com/steam/apps/440/header.jpg?t=1695767057" alt="Team Fortress 2" id="imagenConSonido" onmouseover="playSound()" onclick="playClickSound()"></a>
            
-                <img class="tapa" src="./img/readyOrNot.jpg" alt="Ready or not">
+                <a href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/" target="_blank" rel="noopener noreferrer"><img class="tapa" src="https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg?t=1693590732" alt="The Witcher 3" id="imagenConSonido" onmouseover="playSound()" onclick="playClickSound()"></a>
 
-                <img class="tapa" src="./img/nierAutomata.jpg" alt="Nier Automata">
+                <a href="https://store.steampowered.com/app/438100/VRChat/" target="_blank" rel="noopener noreferrer"><img class="tapa" src="https://cdn.cloudflare.steamstatic.com/steam/apps/438100/header.jpg?t=1693940129" alt="VRChat" id="imagenConSonido" onmouseover="playSound()" onclick="playClickSound()"></a>
 
-                <img class="tapa" src="./img/beamNGdrive.jpg" alt="BeamNG Drive">
+                <a href="https://store.steampowered.com/app/261550/Mount__Blade_II_Bannerlord/" target="_blank" rel="noopener noreferrer"><img class="tapa" src="https://cdn.cloudflare.steamstatic.com/steam/apps/261550/header.jpg?t=1671213711" alt="Bannerlord" id="imagenConSonido" onmouseover="playSound()" onclick="playClickSound()"></a>
 
-                <img class="tapa" src="./img/dontScream.jpg" alt="Dont Scream">
+                <a href="https://store.steampowered.com/app/570/Dota_2/" target="_blank" rel="noopener noreferrer"><img class="tapa" src="https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg?t=1701826869" alt="Dota 2" id="imagenConSonido" onmouseover="playSound()" onclick="playClickSound()"></a>
+
+                
             </div>
+            
         </main>
-        <footer>footer</footer>
+        <footer>/Simple Game Launcher Concept/</footer>
     </section>
-    
-</body>
+    <audio id="sonidoHover" src="./recursos/2.mp3" preload="auto"></audio>
+    <audio id="sonidoClick" src="./recursos/1.mp3" preload="auto"></audio>
+   <script src="script.js"></script>
+    </body>
 </html>
